@@ -33,8 +33,6 @@ public class GalaxyS6Test {
 
         receiptPage.validateReceipt("Sandali", "Amount:");
 
-        //        Set a wait for better visibility of the final receipt
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
         driver.quit();
     }
 }
